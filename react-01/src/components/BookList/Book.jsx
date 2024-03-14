@@ -1,10 +1,11 @@
+
 const Book = ()=>{
-return <>
+return <div className="book">
     <Title/>
     <BookImg/>
     <Author/>
     <br/>
-</>
+</div>
 }
 
 export default Book;
@@ -23,5 +24,5 @@ const BookImg = () =>{
 }
 
 const Author = ()=>{
-    return <h3>Author - Jarvis</h3>;
+    return <h3>Author: Jarvis</h3>;
 }

@@ -1,13 +1,14 @@
-import Book from "./Book";
+import Book from './Book';
+import './BookList.css';
 
-const BookList = () =>{
-    return (
-      <>
-        <Book />
-        <Book />
-        <Book />
-      </>
-    );
-}
+const BookList = () => {
+  return (
+    <section className='bookList'>
+      <Book/>
+      <Book/>
+      <Book/>
+    </section>
+  );
+};
 
 export default BookList;
