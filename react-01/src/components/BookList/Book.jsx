@@ -1,13 +1,12 @@
-const Book = () => {
-  const title = 'Boy with Flowers Book';
-  const bookImg =
-    'https://m.media-amazon.com/images/I/51EFk4pM8PL.AC_SX250.jpg';
-  const author = 'Jarvis';
+const Book = (props) => {
+  const title = props.title;
+  const img = props.img;
+  const author = props.author;
 
   return (
     <div className='book'>
       <h2>{title}</h2>
-      <img src={bookImg}/>
+      <img src={img}/>
       <h3>{author}</h3>
     </div>
   );
