@@ -23,7 +23,11 @@
     font-size: 1.5rem;
     margin-top: 1rem;
 }
-
+.book h3 {
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+    color:#4b6b88;
+}
 @media screen and (min-width: 768px) {
   .bookList {
     grid-template-columns: repeat(3, 1fr);
