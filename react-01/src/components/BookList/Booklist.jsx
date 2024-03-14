@@ -20,7 +20,11 @@ const BookList = () => {
         title={firstBook.title}
         img={firstBook.img}
         author={firstBook.author}
-      />
+      >
+        <br/>
+        <h5>Few Copies Left</h5>
+        <button> Buy Now</button>
+      </Book>
       <Book
         title={secondBook.title}
         img={secondBook.img}
