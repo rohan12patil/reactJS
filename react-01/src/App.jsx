@@ -1,4 +1,4 @@
-import FirstComponent from './FirstComponent';
+import FirstComponent from "./components/FirstComponent";
 
 function App() {
   return (
