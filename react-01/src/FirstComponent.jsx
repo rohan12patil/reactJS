@@ -1,7 +1,9 @@
-const FirstComponent = ()=>{
-    return <>
-    <h2>First component </h2>
+const FirstComponent = () => {
+  return (
+    <>
+      <h2 className='first'>First component </h2>
     </>
-}
+  );
+};
 
 export default FirstComponent;
