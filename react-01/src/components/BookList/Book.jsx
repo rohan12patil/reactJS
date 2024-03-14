@@ -1,8 +1,6 @@
+/* eslint-disable react/prop-types */
 const Book = (props) => {
-  const title = props.title;
-  const img = props.img;
-  const author = props.author;
-
+  const {img, title, author} = props;
   return (
     <div className='book'>
       <h2>{title}</h2>
